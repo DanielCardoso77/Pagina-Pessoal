@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Pessoal</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <header>
+        <h1>Pagina Pessoal</h1>
+    </header>
+    <div class="container">
+        <section class="presentation">
+            <h3>Atividade Diagnóstica</h3>
+            <section class="links">
+            <h3>Links Importantes:</h3>
+            <a href="#Rotina">Ir para Rotina de Estudos</a>
+        </section>
+            <h2>Apresentação</h2>
+            <img src="./img/ilustracao-de-um-jovem-negro-com-dreadlocks-usando-um-capuz_1282444-270348.png" alt="Imagem de Perfil">
+            <p>Eu sou o aluno Daniel Cardoso, tenho 17 anos e sou aluno do Senai Zerbini.</p>
+        </section>
+        <section>
+            <fieldset>
+            <h3>Meus interesses:</h3>
+            <ul>
+                <li>Estudar HTML</li>
+                <li>Praticar CSS</li>
+                <li>Construir projetos</li>
+            </ul>
+            </fieldset>
+        </section>
+        <section>
+            <fieldset>
+            <h3 id="Rotina">Rotina de Estudos</h3>
+            <table>
+                <tr>
+                    <th>Dia</th>
+                    <th>Atividade</th>
+                    <th>Duração</th>
+                </tr>
+                <tr>
+                    <td>Quinta</td>
+                    <td>Java</td>
+                    <td>9 horas</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>MySQL</td>
+                    <td>9 horas</td>
+                </tr>
+            </table>
+            </fieldset>
+        </section>
+     <div id="contato">
+            <hr>
+            <form action="contato">
+                <fieldset>
+                    <h2>Contato</h2>
+ 
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Seu e-mail">
+                    </div>
+
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Seu nome">
+                    </div>
+                    <hr>
+                    <div>
+                        <label for="areaPreferida">Área Preferida:</label><br>
+                        <input type="radio" name="opcao1" id="opcao1">
+                        <label for="opcao1">Web</label>
+                        <input type="radio" name="opcao2" id="opcao2">
+                        <label for="opcao2">Mobile</label>
+                    </div>
+ 
+                    <div>
+                        <label for="preferencias">Preferências:</label><br>
+                        <input type="checkbox" name="opcaoHtml" id="opcaoHtml">
+                        <label for="opcaoHtml">HTML/CSS</label>
+                        <input type="checkbox" name="opcaoTabela" id="opcaoTabela">
+                        <label for="opcaoTabela">Tabelas e Banco de dados</label>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+</body>
+</html>
